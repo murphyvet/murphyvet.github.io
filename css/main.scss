@@ -83,9 +83,8 @@ footer {
     // background-size: cover;
     // background-position: center center;
     background-color: #fff;
-	padding: 0 0 0 0;
 	margin: 0 0 0 0;
-	
+	padding: 0 0 0 0;
 }
 
 .jumbotron h1 {
@@ -101,5 +100,24 @@ footer {
 	border: 1px solid #4D554D;
 }
 
+
+/* Carousel Properties */
+
+#carousel {
+	border:1px solid #000;
+	margin-bottom:20px;
+}
+
+.item {
+	height:300px;
+}
+
+.carousel-caption h2{
+	color:#000;
+}
+
+.carousel-indicators li {
+	border-color:#000;
+}
 
 
