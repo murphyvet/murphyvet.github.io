@@ -10,8 +10,12 @@
 @import "bootstrap";
 // this is needed to load glyphicons
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+@import "../../../css/_about.scss";
 
 //variables
+$pageHeaderColor: gainsboro;
+
+//Custom Sass Start
 $wireframe-color: #eee;
 $wireframe-border-color: #4D554D;
 
@@ -54,4 +58,9 @@ footer {
 .navbar-default {
 	background-color: $wireframe-color;
 	border: 1px solid $wireframe-border-color;
+}
+
+.page-header-bg {
+	background-color: $pageHeaderColor;
+	padding: 10px 0 10px 0;
 }
