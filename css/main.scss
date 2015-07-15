@@ -10,12 +10,12 @@
 @import "bootstrap";
 // this is needed to load glyphicons
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+// import page specific Sass particals
+@import "../../../css/_variables.scss";
+@import "../../../css/_footer.scss";
+@import "../../../css/_navigation";
 
-//variables
-$wireframe-color: #eee;
-$wireframe-border-color: #4D554D;
-
-//custom Sass
+// global Sass
 html, body {
   width: auto !important;
   overflow-x: hidden !important;
@@ -25,33 +25,9 @@ font {
  font-family: Verdana, Geneva, sans-serif;
 }
 
-footer {
-	background-color: $wireframe-color;
-	border: 1px solid $wireframe-border-color;
-}
-
 .block {
 	background-color: $wireframe-color;
 	border: 1px solid $wireframe-border-color;
 	margin-bottom:20px;
 	padding: 0 5px 0 5px;
-}
-
-.jumbotron {
-    background-color: #fff;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-}
-
-.jumbotron h1 {
-	font-size: 42px;
-}
-
-#jumboText {
-	color: #000;
-}
-
-.navbar-default {
-	background-color: $wireframe-color;
-	border: 1px solid $wireframe-border-color;
 }
