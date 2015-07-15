@@ -1,0 +1,79 @@
+@import "_variables.scss";
+.navigation {
+
+	.navbar-default {
+		background-color: $primaryColor;
+		.navbar-nav {
+			li {
+				a {
+					color: white;
+					font-size: 18px;
+				}
+				a:hover {
+					color: $secondaryColor;
+				}
+			}
+			.open {
+				a {
+					color: black;
+				}
+				a:focus {
+					background-color: $secondaryColor;
+				}
+				a:hover {
+					background-color: $secondaryColor;
+					color: black;
+				}
+			}
+			.active {
+				a {
+					background-color: $secondaryColor;
+				}
+				a:hover {
+					color: black;
+				}
+			}
+		}
+		.navbar-toggle {
+			background-color: $secondaryColor;
+			border-color: black;
+			.icon-bar {
+				background-color: black;
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.navigation {
+		.navbar-default {
+			border-color: transparent;
+			.navbar-nav {
+				li {
+					a:hover {
+						color: black;
+					}
+					a {
+						color: white;
+						.dropdown {
+							color: white;
+						}
+					}
+				}
+				.open {
+					.dropdown-menu {
+						li {
+							a {
+								color: white;
+							}
+						}
+					}
+				}
+			}
+			.navbar-collapse {
+				.navbar-form {
+					border-color: $secondaryColor;
+				}
+			}
+		}
+	}
+}
