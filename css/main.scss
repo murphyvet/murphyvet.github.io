@@ -8,6 +8,8 @@
 // @import
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "../../../css/_navigation.scss";
+@import "../../../css/_variables.scss";
 // this is needed to load glyphicons
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 // import page specific Sass particals
@@ -31,3 +33,4 @@ font {
 	margin-bottom:20px;
 	padding: 0 5px 0 5px;
 }
+
