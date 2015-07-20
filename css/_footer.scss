@@ -1,6 +1,18 @@
 @import "_variables.scss";
 .footer { 
-	background-color: $wireframe-color;
-	border: 3px solid #bfcbdc;
+	background-color: #0066cc;
+	border: 2px solid #bfcbdc;
+
 
 }
+
+h3{
+
+	font-weight: bold;
+	
+}
+
+#phone{
+	color: black;
+}
+a{color: black;}
