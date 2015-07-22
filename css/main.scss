@@ -6,26 +6,36 @@
 @charset "utf-8";
 
 // @import
-@import "bootstrap-sprockets";
 @import "bootstrap";
 // this is needed to load glyphicons
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
 // import page specific Sass particals
 @import "../../../css/_variables.scss";
 @import "../../../css/_footer.scss";
-@import "../../../css/_navigation";
+@import "../../../css/_navigation.scss";
+@import "../../../css/_home.scss";
 
 // global Sass
+
+//variables
+$pageHeaderColor: gainsboro;
+
+//Custom Sass Start
+$wireframe-color: #eee;
+$wireframe-border-color: #4D554D;
+
+//custom Sass
+
 html, body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   width: auto !important;
   overflow-x: hidden !important;
 }
 
 font {
- font-family: Verdana, Geneva, sans-serif;
+
 }
-
-
 
 .block {
 	background-color: $wireframe-color;
@@ -44,6 +54,11 @@ font {
     -moz-border-radius-topleft:5px;
     -webkit-border-top-right-radius:5px;
     -webkit-border-top-left-radius:5px;
+}
+
+.today-date-row {
+	background-color:$primary-color-light;
+	color:#fff;
 }
 
 .bath{
