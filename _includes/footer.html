@@ -1,7 +1,10 @@
+
 <footer class="container-fluid footer">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<!--refrencing Javascript file-->
+<script src="{{site.baseurl}}/js/javascript.js"></script>
 
 <script type="text/javascript">
 $(".table-date .day" + (new Date().getDay())).addClass("today-date-row");
@@ -9,31 +12,37 @@ $(".table-date .day" + (new Date().getDay())).addClass("today-date-row");
 
 <div class="container">
   <div class="col-md-12">
-	  <div class="col-md-4">
+	  <div class="col-md-8">
 		<ul class="list-unstyled">
-		  <li><h3>Testimonials</h3></li>
-		  <li>Wicked awesome</li>
-		  <li>For realz</li>
+		  <li>
+		  	<h3>Customer Testimonials
+		 	<span class="glyphicon glyphicon-pencil"></span>
+		  	</h3>	
+		  </li>
+		 
+		  <img src="images/test_pic.jpg" alt="test pic" class="img-circle"/><br>
+		  <div class="align">
+		  	<span class="glyphicon glyphicon-arrow-left"></span>
+		  	<span class="glyphicon glyphicon-arrow-right"></span>
+		  </div>
+		  
+		  
 		</ul>
 	  </div>
 
 	  <div class="col-md-4">
 		<ul class="list-unstyled">
-		  <li><h3>Coupons</h3></li>
-		  <li>Existing Clients:</li>
-		  <li><a href="#">10 Percent off any service</a></li>
-		  <li>New Clients:</li>
-		  <li><a href="#">Free office visit</a></li>
-		</ul>
-	  </div>
-
-	  <div class="col-md-4">
-		<ul class="list-unstyled">
-		  <li><h3>Contact us</h3></li>
-		  <li>Murphy Veterinary Clinic </li>
+		  <li>
+		  	<h3>Contact
+		  	<span class="glyphicon glyphicon-earphone"></span>
+		  	</h3>
+		  </li>
+		  <li>
+		  	<h2>Murphy Veterinary Clinic</h2>
+		  </li>
 		  <li>2620 South Orlando Drive </li>
-		  <li>Sanford Florida 32773</li>
-		  <li>407.323.4707 </li>
+		  <li>Sanford, Florida 32773</li>
+		  <span id="phone"><li>T: <a href="4073234707">(407) 323-4707</a></li></span>
 		</ul>
 	  </div>
   </div>
