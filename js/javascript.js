@@ -12,7 +12,7 @@ $(document).ready(function() {
     $('.testimonialName').text(testimonialNames[currentTest]);
 
     // function for when user clicks the right arrow
-    $('.glyphicon-arrow-right').click(function(){
+    $('.glyphicon glyphicon-arrow-right').click(function(){
 
     	// we only have three testimonials so if user clicks right at the last index reset
     	// index to 0 to loop through the array again
@@ -29,7 +29,7 @@ $(document).ready(function() {
     });
 
     // function for when user clicks the left arrow
-    $('.glyphicon-arrow-left').click(function(){
+    $('.glyphicon glyphicon-arrow-left').click(function(){
 
     	// if user clicks left arrow when we are on first index start over from last index
     	if ( currentTest == 0 ) {
