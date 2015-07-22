@@ -25,9 +25,29 @@ font {
  font-family: Verdana, Geneva, sans-serif;
 }
 
+
+
 .block {
 	background-color: $wireframe-color;
 	border: 1px solid $wireframe-border-color;
 	margin-bottom:20px;
 	padding: 0 5px 0 5px;
+	width: 50%;
 }
+
+.box {border:0px solid #0066cc;}
+.box h2 {background:#0066CC;color:white;padding:10px;}
+.box p {color:#333;padding:10px;}
+.box {background-color:#BFCDDC;}
+.box {
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+}
+
+.bath{
+	display:block;
+	margin:auto;
+}
+
