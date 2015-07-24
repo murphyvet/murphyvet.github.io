@@ -8,15 +8,27 @@
 	} // end .jumbotron
 
 	#jumboText {
+		h3 {font-size:20px;}
+		color: #000;
+	} // end #jumboText
+
+	.navbar-default {
+		h4 {color:$primary-color-text;}
 		color: $primary-color-text;
 	} // end #jumboText
 
 	.navbar-default {
+		h4 {color:$primary-color-text;}
 		border-radius:0; 
 		background-color:$primary-color-dark;
-			.navbar-nav>li>a {color:$primary-color-text; font-weight:bold;}
-			.navbar-nav>li>a:hover, .navbar-nav>li>a:focus{background-color:$primary-color-light;color:$primary-color-dark;}
-			.navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus {background-color:$primary-color-light;color:$primary-color-dark;}
+		border: 1px solid $wireframe-border-color;
+		.navbar-collapse {border-top:0}
+		.navbar-brand {padding:0 0 0 15px;}
+		.navbar-nav>li>a {color:$primary-color-text; font-weight:bold;}
+		.navbar-nav>li>a:hover, .navbar-nav>li>a:focus{background-color:$primary-color-light;color:$primary-color-dark;}
+		.navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus, .navbar-nav>.active>a {background-color:$primary-color-light;color:$primary-color-dark;}
+		.navbar-nav .open .dropdown-menu>li>a {color:$primary-color-dark;}
+		.navbar-nav .open .dropdown-menu>li>a:hover {color:$primary-color-text;}
 		.dropdown-menu{
 			background-color:$primary-color-light;
 			border-radius:0;
