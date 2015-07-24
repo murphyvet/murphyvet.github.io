@@ -68,11 +68,21 @@ font {
 	margin:auto;
 }
 
-#jumboText {
-	color: #000;
+.contact-block {
+	margin-top:10px;
+	text-align:right;
+	ul{font-size:16px;font-weight:bold;}
 }
 
-.navbar-default {
-	background-color: $wireframe-color;
-	border: 1px solid $wireframe-border-color;
-}
+.panel-default {
+	h2 {color:$primary-color-text;font-weight:normal;margin:0;}
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	.list-group:last-child .list-group-item:last-child {border-radius:0 0 5px 5x;}
+	.panel-heading {
+		background-color:$primary-color-dark;
+		border-radius:5px 5px 0 0;
+		color:#f3f3f3;
+		padding:10px;
+	} // end .panel-heading
+} // end .panel-default
