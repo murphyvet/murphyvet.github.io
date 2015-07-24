@@ -1,7 +1,7 @@
 // wait until page is ready to perform javascript
 
 $(document).ready(function() {
-    
+
     $(".table-date .day" + (new Date().getDay())).addClass("today-date-row");
 
 	//setup current testimonial index and testimonial data array's
@@ -69,3 +69,5 @@ $(document).ready(function() {
         }
     }
 });
+
+cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () { alert("Made with <3 by the 2015 HDSupply Interns"); });
