@@ -12,8 +12,6 @@ $(document).ready(function() {
     var testimonialNames = ["Tracy W.","Christopher B.","Ray Mikler"];
     var testimonialImages = [ "/images/test1Image.jpg","/images/test2Image.jpg","/images/test3Image.jpg"];
 
-    setInterval(function() {testSwap()}, 10000);
-
     // initially set the content of the testimonial elements to index 0
     $('.testimonialText').text(testimonials[currentTest]);
     $('.testimonialName').text(testimonialNames[currentTest]);
