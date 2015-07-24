@@ -7,7 +7,7 @@
 		border:1px solid $wireframe-border-color;
 		margin-bottom:20px;
 		.visible-xs {
-		a {color:$primary-color-dark;}
+		a {color:#000;}
 		}
 	} // end #carousel
 
@@ -17,11 +17,12 @@
 		background:rgba(0, 0, 0, .6);
 		bottom:auto;
 		right:auto;
-		top:20%;
+		top:15%;
 		left:15%;
 		float:left;
 		padding:10px;
-		text-align:center;
+		text-align:left;
+		width:40%;
 	}
 	
 
@@ -33,22 +34,12 @@
 	.friendly-message {
 		h3 {color:$primary-color-dark;}
 		background-color:$primary-color-light;
+		-webkit-border-radius:5px;
 		border-radius:5px;
 		color:$primary-color-text;
 		margin:20px 10px 20px 10px;
 		padding:10px;
 	} // end .friendly-message
 
-	.panel-default {
-		h2 {color:$primary-color-text;font-weight:normal;margin:0;}
-		-webkit-border-radius:5px;
-		border-radius:5px;
-		.list-group:last-child .list-group-item:last-child {border-radius:0 0 5px 5x;}
-		.panel-heading {
-			background-color:$primary-color-dark;
-			border-radius:5px 5px 0 0;
-			color:#f3f3f3;
-			padding:10px;
-		} // end .panel-heading
-	} // end .panel-default
+
 } //end .home-page
