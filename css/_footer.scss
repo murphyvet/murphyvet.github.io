@@ -30,5 +30,12 @@
 	}
 	.testimonialArrow:hover {
 		cursor: pointer;
+		color: $primary-color-light;
+	}
+	a {
+		color: $primary-color-text;
+	}
+	a:hover {
+		color: $primary-color-light;
 	}
 }
