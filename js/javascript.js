@@ -11,7 +11,6 @@ $(document).ready(function() {
                         "Dr. Wayne and staff are great. Our three dogs get super care. Very polite and caring."];
     var testimonialNames = ["Tracy W.","Christopher B.","Ray Mikler"];
     var testimonialImages = [ "/images/test1Image.jpg","/images/test2Image.jpg","/images/test3Image.jpg"];
-<<<<<<< HEAD
 
     setInterval(function() {testSwap()}, 10000);
 
