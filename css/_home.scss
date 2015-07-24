@@ -1,8 +1,10 @@
 @import "_variables.scss";
-.home-page {
 
+
+.home-page {
+	
 	#carousel {
-		border:1px solid $wireframe-border-color;
+		border-bottom:1px solid $primary-color-dark;
 		margin-bottom:20px;
 		.visible-xs {
 		a {color:#000;}

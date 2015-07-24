@@ -13,11 +13,7 @@
 	} // end #jumboText
 
 	.navbar-default {
-		h4 {color:$primary-color-text;}
-		color: $primary-color-text;
-	} // end #jumboText
-
-	.navbar-default {
+		margin-bottom:0;
 		h4 {color:$primary-color-text;}
 		border-radius:0; 
 		background-color:$primary-color-dark;
