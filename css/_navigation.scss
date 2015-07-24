@@ -13,6 +13,10 @@
 
 	.navbar-default {
 		h4 {color:$primary-color-text;}
+		color: $primary-color-text;
+	} // end #jumboText
+
+	.navbar-default {
 		border-radius:0; 
 		background-color:$primary-color-dark;
 			.navbar-nav>li>a {color:$primary-color-text; font-weight:bold;}
