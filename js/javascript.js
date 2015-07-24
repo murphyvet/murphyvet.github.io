@@ -1,6 +1,8 @@
 // wait until page is ready to perform javascript
 
 $(document).ready(function() {
+    
+    $(".table-date .day" + (new Date().getDay())).addClass("today-date-row");
 
 	//setup current testimonial index and testimonial data array's
 	var currentTest = 0;
