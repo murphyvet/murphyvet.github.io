@@ -1,15 +1,26 @@
+{% assign current = page.url | downcase | split: '/' %}
+{% assign primary = current[1] %}
+{% assign secondary = current[2] %}
+
+{% if secondary != 'index.html' %}
+	{% assign imagePath = secondary %}
+{% else %}
+   {% assign imagePath = primary %}
+{% endif %}
+<!-- uncomment following lines for debugging purposes -->
+<!-- <h5>{{primary}}</h5>
+<h5>{{secondary}}</h5>
+<h5>so image path should be:  {{ imagePath }}</h5> -->
 <!DOCTYPE html>
-
-<!-- This custom layout puts the navbar below the jumbotron -->
-
 <html>
 {% include head.html %}
   <body>
-    <div class="page-content">	
-      <div class="wrapper">
+    <div class="page-content">
 	  {% include header.html %}
+	  <div class="pageBanner">
+  	  	<div class="CoverImage FlexEmbed FlexEmbed--3by1" style="background-image:url(/images/{{ imagePath }}.jpg)"></div>
+  	  </div>
       {{ content }}
-      </div>
     </div>
     {% include footer.html %}
   </body>
