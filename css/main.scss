@@ -17,6 +17,8 @@
 @import "../../../css/_home.scss";
 @import "../../../css/_about.scss";
 @import "../../../css/_adopt.scss";
+@import "../../../css/_pageBanner.scss";
+@import "../../../css/_services.scss";
 
 // global Sass
 
@@ -76,6 +78,10 @@ body {
 	margin-top:10px;
 	text-align:right;
 	ul{font-size:16px;font-weight:bold;}
+}
+
+li {
+    list-style-type: none;
 }
 
 .panel-default {

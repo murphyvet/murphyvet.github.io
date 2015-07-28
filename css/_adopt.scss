@@ -1,0 +1,10 @@
+@import "_variables.scss";
+.adopt {
+	a:hover, a:active, a:focus {text-decoration:none;}
+	margin-top:10px;
+	.thumbnail {
+		width:230px;
+		float:left;
+		margin:10px;
+	}
+}

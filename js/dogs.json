@@ -1,0 +1,50 @@
+{
+"dogs":[{
+               "name": "Puppy #1",
+               "breed": "Puppy #2",
+               "age": "Puppy #3",
+               "gender": "Puppy #4",
+               "behavior": "Puppy #5",
+               "color": "Puppy #6"
+
+       },
+       {
+               "name": "Puppy #2",
+               "breed": "Puppy #8",
+               "age": "Puppy #9",
+               "gender": "Puppy #10",
+               "behavior": "Puppy #11",
+               "color": "Puppy #12"
+
+       },
+       {
+               "name": "Puppy #3",
+               "breed": "Puppy #2",
+               "age": "Puppy #3",
+               "gender": "Puppy #4",
+               "behavior": "Puppy #5",
+               "color": "Puppy #6"
+
+       },
+       {
+               "name": "Puppy #4",
+               "breed": "Puppy #8",
+               "age": "Puppy #9",
+               "gender": "Puppy #10",
+               "behavior": "Puppy #11",
+               "color": "Puppy #12"
+
+       },
+              {
+               "name": "Juan",
+               "breed": "Puppy #8",
+               "age": "Puppy #9",
+               "gender": "Puppy #10",
+               "behavior": "Puppy #11",
+               "color": "Puppy #12"
+
+       }  
+
+]
+}
+               
