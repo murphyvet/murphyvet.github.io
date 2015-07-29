@@ -1,9 +1,13 @@
 @import "_variables.scss";
 .about {
-	.susaneBio {
-		margin-top: 20px;
-	}
 	.img-responsive {
 		display: inline;
+	}
+	.bioRow {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.bioText {
+		margin-top: 20px;
 	}
 }
