@@ -3,8 +3,35 @@
 	a:hover, a:active, a:focus {text-decoration:none;}
 	margin-top:10px;
 	.thumbnail {
-		width:230px;
 		float:left;
 		margin:10px;
+		width:250px;
+		height:250px;
+		img {
+			height:85%;
+		}
 	}
+
+	.thumb-image {
+		height:300px;
+		img {
+			height:85%;
+		}
+	}
+
+	.modal-footer {
+		border-top:0;
+		text-align:center;
+		padding:0 0 15px 0;
+	}
+
+	.modal-header {
+		border-bottom:0;
+	}
+
+	.caption {
+		li {margin-bottom:5px;}
+	}
+
+
 }
