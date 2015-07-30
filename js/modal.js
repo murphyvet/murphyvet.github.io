@@ -82,7 +82,7 @@ function loadCatImages(url) {
         thumbnail.find('ul li').text(cat.name);
         thumbnail.find('img').attr('src', imgUrl);
         imageGallery.append(thumbnail);
-        attributes.push({img: imgUrl, name: cat.name, age: cat.age, gender: cat.gender, color: cat.color, needs: cat.needs}); 
+ attributes.push({img: imgUrl, name: cat.name, age: cat.age, gender: cat.gender, breed: cat.breed, color: cat.color, behavior: cat.behavior, needs: cat.needs});  
     }   
     
     function setModalContent($thumbNumber) {
@@ -91,7 +91,9 @@ function loadCatImages(url) {
         $('#myModal .name').html('<b>Name:</b> ' + attributes[$thumbNumber].name);
         $('#myModal .age').html('<b>Age:</b> ' + attributes[$thumbNumber].age);
         $('#myModal .gender').html('<b>Gender:</b> ' + attributes[$thumbNumber].gender);
+        $('#myModal .breed').html('<b>Breed:</b> ' + attributes[$thumbNumber].breed);
         $('#myModal .color').html('<b>Color:</b> ' + attributes[$thumbNumber].color);
+        $('#myModal .behavior').html('<b>Behaviors:</b> ' + attributes[$thumbNumber].behavior);
         $('#myModal .needs').html('<b>Special Needs:</b> ' + attributes[$thumbNumber].needs);
         $('#myModal .pet-name').html('Want to take ' + attributes[$thumbNumber].name + ' home?');
 
