@@ -1,13 +1,13 @@
 @import "_variables.scss";
 .about {
-	.row:nth-child(2) {
-		margin-top: 10px;
-	}
 	.img-responsive {
 		display: inline;
 	}
-	.page-header-bg {
-		background-color: $secondary-color;
-		padding: 10px 0 10px 0;
+	.bioRow {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.bioText {
+		margin-top: 20px;
 	}
 }

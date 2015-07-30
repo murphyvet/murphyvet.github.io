@@ -16,6 +16,9 @@
 @import "../../../css/_navigation.scss";
 @import "../../../css/_home.scss";
 @import "../../../css/_about.scss";
+@import "../../../css/_adopt.scss";
+@import "../../../css/_pageBanner.scss";
+@import "../../../css/_services.scss";
 
 // global Sass
 
@@ -34,8 +37,12 @@ html, body {
   overflow-x: hidden !important;
 }
 
-font {
+body {
+    padding-right: 0 !important;
+}
 
+.navbar-default {
+    padding-right: 0 !important;
 }
 
 .block {
@@ -73,6 +80,10 @@ font {
 	ul{font-size:16px;font-weight:bold;}
 }
 
+li {
+    list-style-type: none;
+}
+
 .panel-default {
 	h2 {color:$primary-color-text;font-weight:normal;margin:0;}
 	-webkit-border-radius:5px;
@@ -86,21 +97,4 @@ font {
 	} // end .panel-heading
 } // end .panel-default
 
-.adopt-block {
-	text-align:center;
-}
-.adopt-page {
-	margin-top:20px;
-}
 
-.thumbnail {
-	float:left;
-	width:230px;
-	margin-right:10px;
-	margin-left:10px;
-}
-
-.test {
-	margin-right:auto;
-	margin-left:auto;
-}

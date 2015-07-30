@@ -1,0 +1,52 @@
+{
+"cats":[{
+               "image": "/images/adopt/cats/whiskers.jpg",
+               "name": "Charlie",
+               "age": "2-3 years",
+               "gender": "Female",
+               "color": "Tan/White",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/cats/whiskers.jpg",
+               "name": "Buttons",
+               "age": "Unknown, Adult",
+               "gender": "Male",
+               "color": "Grey",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/cats/whiskers.jpg",
+               "name": "Sassy",
+               "age": "5 years",
+               "gender": "Female",
+               "color": "Brown/White",
+               "needs": "N/A"  
+       },
+       {
+               "image": "/images/adopt/cats/whiskers.jpg",
+               "name": "Suzan",
+               "age": "1-2 years",
+               "gender": "Female",
+               "color": "White/Brown",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/cats/whiskers.jpg",
+               "name": "Doc",
+               "age": "2-3 years",
+               "gender": "Male",
+               "color": "Unknown",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/cats/whiskers.jpg",
+               "name": "Sebastian",
+               "age": "7-8 years",
+               "gender": "Male",
+               "color": "Unknown",
+               "needs": "Suffered severe head trauma as a puppy and walks in circles. Has to be your only pet."
+       }
+]
+}
+               

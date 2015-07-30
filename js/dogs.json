@@ -1,0 +1,114 @@
+{
+"dogs":[{
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Addie",
+               "age": "2-3 years",
+               "gender": "Female",
+               "breed": "Hound mix",
+               "color": "Tan/White",
+               "behavior": "Housebroken, shy and quiet and good with other dogs",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Buttons",
+               "age": "Unknown, Adult",
+               "gender": "Male",
+               "breed": "Shitzu",
+               "color": "Grey",
+               "behavior": "Unknown",
+               "needs": "Requires medication for chronic dry eyes"
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Sassy",
+               "age": "5 years",
+               "gender": "Female",
+               "breed": "Rat Terrier",
+               "color": "Brown/White",
+               "behavior": "Housebroken" ,
+               "needs": "N/A"  
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Suzan",
+               "age": "1-2 years",
+               "gender": "Female",
+               "breed": "Corgi",
+               "color": "White/Brown",
+               "behavior": "Housebroken, energetic and doesn't like cats",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Doc",
+               "age": "2-3 years",
+               "gender": "Male",
+               "breed": "Australian Cattle Dog",
+               "color": "Unknown",
+               "behavior": "Housebroken, high Energy, knows basic commands, escape artist",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Sebastian",
+               "age": "7-8 years",
+               "gender": "Male",
+               "breed": "Roh/Shepherd mix",
+               "color": "Unknown",
+               "behavior": "Unknown",
+               "needs": "Suffered severe head trauma as a puppy and walks in circles. Has to be your only pet."
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Leo",
+               "age": "1 year",
+               "gender": "Male",
+               "breed": "Unknown",
+               "color": "Unknown",
+               "behavior": "Housebroken, crate trained, playful",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Dixie",
+               "age": "5-7 years",
+               "gender": "Female",
+               "breed": "Pitbull mix",
+               "color": "Unknown",
+               "behavior": "Housebroken and great with other dogs",
+               "needs": "Suffered hindleg injury as a puppy resulting in deformed rear leg"
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Dusty",
+               "age": "2 years",
+               "gender": "Male",
+               "breed": "Australian cattle dog (blue heeler)",
+               "color": "Unknown",
+               "behavior": "High energy, good with female dogs,  and does not do well with cats",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Jasper",
+               "age": "2 years",
+               "gender": "Female",
+               "breed": "Australian cattle dog",
+               "color": "Unknown",
+               "behavior": "Housebroken and does not do well with cats",
+               "needs": "N/A"
+       },
+       {
+               "image": "/images/adopt/dogs/buttons.jpg",
+               "name": "Tilly",
+               "age": "8-9 years",
+               "gender": "Female",
+               "breed": "Australian cattle dog",
+               "color": "Unknown",
+               "behavior": "High energy, very affectionate, does not do well with other dogs or cats",
+               "needs": "N/A"
+       }
+]
+}
+               
