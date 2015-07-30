@@ -85,10 +85,11 @@ li {
 }
 
 .panel-default {
-	h2 {color:$primary-color-text;font-weight:normal;margin:0;}
+	h2, h3 {color:$primary-color-text;font-weight:normal;margin:0;}
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	.list-group:last-child .list-group-item:last-child {border-radius:0 0 5px 5x;}
+	.list-group{margin-bottom:0;}
+	.list-group:last-child .list-group-item:last-child {border-radius:0 0 5px 5px;}
 	.panel-heading {
 		background-color:$primary-color-dark;
 		border-radius:5px 5px 0 0;
