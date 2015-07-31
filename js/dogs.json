@@ -1,6 +1,6 @@
 {
 "dogs":[{
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/addie.jpg",
                "name": "Addie",
                "age": "2-3 years",
                "gender": "Female",
@@ -20,7 +20,7 @@
                "needs": "Requires medication for chronic dry eyes"
        },
        {
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/sassy-2.jpg",
                "name": "Sassy",
                "age": "5 years",
                "gender": "Female",
@@ -30,7 +30,7 @@
                "needs": "N/A"  
        },
        {
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/suzy.jpg",
                "name": "Suzan",
                "age": "1-2 years",
                "gender": "Female",
@@ -40,7 +40,7 @@
                "needs": "N/A"
        },
        {
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/doc.jpg",
                "name": "Doc",
                "age": "2-3 years",
                "gender": "Male",
@@ -50,7 +50,7 @@
                "needs": "N/A"
        },
        {
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/sebastian.jpg",
                "name": "Sebastian",
                "age": "7-8 years",
                "gender": "Male",
@@ -60,7 +60,7 @@
                "needs": "Suffered severe head trauma as a puppy and walks in circles. Has to be your only pet."
        },
        {
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/leo.jpg",
                "name": "Leo",
                "age": "1 year",
                "gender": "Male",
@@ -70,7 +70,7 @@
                "needs": "N/A"
        },
        {
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/dixie-2.jpg",
                "name": "Dixie",
                "age": "5-7 years",
                "gender": "Female",
@@ -80,7 +80,7 @@
                "needs": "Suffered hindleg injury as a puppy resulting in deformed rear leg"
        },
        {
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/dusty-2.jpg",
                "name": "Dusty",
                "age": "2 years",
                "gender": "Male",
@@ -90,7 +90,7 @@
                "needs": "N/A"
        },
        {
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/jasper.jpg",
                "name": "Jasper",
                "age": "2 years",
                "gender": "Female",
@@ -100,7 +100,7 @@
                "needs": "N/A"
        },
        {
-               "image": "/images/adopt/dogs/buttons.jpg",
+               "image": "/images/adopt/dogs/tilly.jpg",
                "name": "Tilly",
                "age": "8-9 years",
                "gender": "Female",
