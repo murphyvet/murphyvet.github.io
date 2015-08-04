@@ -10,7 +10,7 @@ $(document).ready(function() {
                         "I come all the way from Orlando.  Best vet I've been to.  Recommended to all my friends.", 
                         "Dr. Wayne and staff are great. Our three dogs get super care. Very polite and caring."];
     var testimonialNames = ["Tracy W.","Christopher B.","Ray Mikler"];
-    var testimonialImages = [ "/images/test1Image.jpg","/images/test2Image.jpg","/images/test3Image.jpg"];
+    var testimonialImages = [ "/images/testimonials/test1Image.jpg","/images/testimonials/test2Image.jpg","/images/testimonials/test3Image.jpg"];
 
     // initially set the content of the testimonial elements to index 0
     $('.testimonialText').text(testimonials[currentTest]);

@@ -1,4 +1,5 @@
 {% assign current = page.url | downcase | split: '/' %}
+
 <header class="site-header navigation">
 
 <div class="row jumbotron hidden-xs">
@@ -45,6 +46,14 @@
           <ul class="dropdown-menu">
             <li><a href="/services/medical">Medical</a></li>
             <li><a href="/services/boarding">Boarding</a></li>
+          </ul>
+        </li>
+
+        <li {% if current[1] == 'adopt' %}class='dropdown active'{% else %}class='dropdown'{% endif %}>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Adopt<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/adopt/cats">Cats</a></li>
+            <li><a href="/adopt/dogs">Dogs</a></li>
           </ul>
         </li>
         <li {% if current[1] == 'contact' %}class='active'{% endif %}><a href="/contact">Contact</a></li>

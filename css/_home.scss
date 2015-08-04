@@ -24,11 +24,24 @@
 		text-align:left;
 		width:40%;
 	}
-	
+
+	.caption-small {
+		h4{color:$primary-color-text;margin:0;}
+		background:rgba(0, 0, 0, .6);
+		padding:5px;
+		margin-left:auto;
+		margin-right:auto;
+		width:40%;
+	}
+
 	.carousel-indicators li {
-		background-color: $wireframe-color;
-		border: 1px solid $wireframe-border-color;
+		background-color: $primary-color-light;
+		border: 1px solid $primary-color-dark;
 	} // end .carousel-indicators
+
+	.carousel-control span {
+		color:$primary-color-dark;
+	}
 
 	.friendly-message {
 		h3 {color:$primary-color-dark;}
