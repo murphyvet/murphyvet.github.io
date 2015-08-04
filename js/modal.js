@@ -18,6 +18,15 @@ function loadPetImages(url, petType) {
     var imageGallery = $('.image-gallery');
     var imageGalleryThumbnail = $('.image-gallery .thumbnail');
 
+    if (json[petType].length > 0) {
+        imageGallery.find('.no-pets').addClass('hidden');
+        imageGallery.find('.pets-available').removeClass('hidden');
+    }
+    else {
+        imageGallery.find('.no-pets').removeClass('hidden');
+        imageGallery.find('.pets-available').addClass('hidden');
+    }
+ 
     for (var i=0; i<json[petType].length; i++) {
         var pet = json[petType][i];
         var imgUrl = pet.image;
@@ -31,7 +40,7 @@ function loadPetImages(url, petType) {
         thumbnail.find('img').attr('src', imgUrl);
         imageGallery.append(thumbnail);
         attributes.push({img: imgUrl, name: pet.name, age: pet.age, gender: pet.gender, breed: pet.breed, color: pet.color, behavior: pet.behavior, needs: pet.needs}); 
-    }   
+    }
     
     function setModalContent($thumbNumber) {
         $('#myModal .modal-body img').last().attr('src',attributes[$thumbNumber].img);
@@ -42,7 +51,7 @@ function loadPetImages(url, petType) {
         $('#myModal .color').html('<b>Color:</b> ' + attributes[$thumbNumber].color);
         $('#myModal .behavior').html('<b>Behaviors:</b> ' + attributes[$thumbNumber].behavior);
         if (attributes[$thumbNumber].needs.length != 0) {
-            $('#myModal .needs').html('<b>Special Needs:</b> ' + attributes[$thumbNumber].needs).removeClass('hidden-lg');
+            $('#myModal .needs').html('<b>Special Needs:</b> ' + attributes[$thumbNumber].needs).removeClass('hidden');
         } 
         else {
             $('#myModal .needs').addClass('hidden');
