@@ -19,6 +19,10 @@
 	}
 	.testimonialCol {
 		margin-top: 20px;
+		padding-left: 0px;
+	}
+	.testimonialImageCol {
+		padding-right: 0px;
 	}
 	i {
 		color: $primary-color-text;
@@ -39,5 +43,6 @@
 	a:hover {
 		color: $primary-color-light;
 	}
+
 }
 
