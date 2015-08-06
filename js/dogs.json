@@ -12,11 +12,11 @@
        {
                "image": "/images/adopt/dogs/buttons.jpg",
                "name": "Buttons",
-               "age": "Unknown, Adult",
+               "age": "Adult",
                "gender": "Male",
                "breed": "Shitzu",
                "color": "Grey",
-               "behavior": "Unknown",
+               "behavior": "",
                "needs": "Requires medication for chronic dry eyes"
        },
        {
@@ -45,7 +45,7 @@
                "age": "2-3 years",
                "gender": "Male",
                "breed": "Australian Cattle Dog",
-               "color": "Unknown",
+               "color": "",
                "behavior": "Housebroken, high Energy, knows basic commands, escape artist",
                "needs": ""
        },
@@ -55,8 +55,8 @@
                "age": "7-8 years",
                "gender": "Male",
                "breed": "Roh/Shepherd mix",
-               "color": "Unknown",
-               "behavior": "Unknown",
+               "color": "",
+               "behavior": "",
                "needs": "Suffered severe head trauma as a puppy and walks in circles. Has to be your only pet."
        },
        {
@@ -64,8 +64,8 @@
                "name": "Leo",
                "age": "1 year",
                "gender": "Male",
-               "breed": "Unknown",
-               "color": "Unknown",
+               "breed": "",
+               "color": "",
                "behavior": "Housebroken, crate trained, playful",
                "needs": ""
        },
@@ -75,7 +75,7 @@
                "age": "5-7 years",
                "gender": "Female",
                "breed": "Pitbull mix",
-               "color": "Unknown",
+               "color": "",
                "behavior": "Housebroken and great with other dogs",
                "needs": "Suffered hindleg injury as a puppy resulting in deformed rear leg"
        },
@@ -85,7 +85,7 @@
                "age": "2 years",
                "gender": "Male",
                "breed": "Australian cattle dog (blue heeler)",
-               "color": "Unknown",
+               "color": "",
                "behavior": "High energy, good with female dogs,  and does not do well with cats",
                "needs": ""
        },
@@ -95,7 +95,7 @@
                "age": "2 years",
                "gender": "Female",
                "breed": "Australian cattle dog",
-               "color": "Unknown",
+               "color": "",
                "behavior": "Housebroken and does not do well with cats",
                "needs": ""
        },
@@ -105,7 +105,7 @@
                "age": "8-9 years",
                "gender": "Female",
                "breed": "Australian cattle dog",
-               "color": "Unknown",
+               "color": "",
                "behavior": "High energy, very affectionate, does not do well with other dogs or cats",
                "needs": ""
        }
