@@ -7,7 +7,7 @@
                "breed": "Hound mix",
                "color": "Tan/White",
                "behavior": "Housebroken, shy and quiet and good with other dogs",
-               "needs": "N/A"
+               "needs": ""
        },
        {
                "image": "/images/adopt/dogs/buttons.jpg",
@@ -27,7 +27,7 @@
                "breed": "Rat Terrier",
                "color": "Brown/White",
                "behavior": "Housebroken" ,
-               "needs": "N/A"  
+               "needs": ""  
        },
        {
                "image": "/images/adopt/dogs/suzy.jpg",
@@ -37,7 +37,7 @@
                "breed": "Corgi",
                "color": "White/Brown",
                "behavior": "Housebroken, energetic and doesn't like cats",
-               "needs": "N/A"
+               "needs": ""
        },
        {
                "image": "/images/adopt/dogs/doc.jpg",
@@ -47,7 +47,7 @@
                "breed": "Australian Cattle Dog",
                "color": "Unknown",
                "behavior": "Housebroken, high Energy, knows basic commands, escape artist",
-               "needs": "N/A"
+               "needs": ""
        },
        {
                "image": "/images/adopt/dogs/sebastian.jpg",
@@ -67,7 +67,7 @@
                "breed": "Unknown",
                "color": "Unknown",
                "behavior": "Housebroken, crate trained, playful",
-               "needs": "N/A"
+               "needs": ""
        },
        {
                "image": "/images/adopt/dogs/dixie-2.jpg",
@@ -87,7 +87,7 @@
                "breed": "Australian cattle dog (blue heeler)",
                "color": "Unknown",
                "behavior": "High energy, good with female dogs,  and does not do well with cats",
-               "needs": "N/A"
+               "needs": ""
        },
        {
                "image": "/images/adopt/dogs/jasper.jpg",
@@ -97,7 +97,7 @@
                "breed": "Australian cattle dog",
                "color": "Unknown",
                "behavior": "Housebroken and does not do well with cats",
-               "needs": "N/A"
+               "needs": ""
        },
        {
                "image": "/images/adopt/dogs/tilly.jpg",
@@ -107,7 +107,7 @@
                "breed": "Australian cattle dog",
                "color": "Unknown",
                "behavior": "High energy, very affectionate, does not do well with other dogs or cats",
-               "needs": "N/A"
+               "needs": ""
        }
 ]
 }
