@@ -48,28 +48,14 @@ function loadPetImages(url, petType) {
         $('#myModal .age').html('<b>Age:</b> ' + attributes[$thumbNumber].age);
         $('#myModal .gender').html('<b>Gender:</b> ' + attributes[$thumbNumber].gender);
         $('#myModal .breed').html('<b>Breed:</b> ' + attributes[$thumbNumber].breed);
-
-        if (attributes[$thumbNumber].needs.length != 0) {
-            $('#myModal .color').html('<b>Color:</b> ' + attributes[$thumbNumber].color).removeClass('hidden');
-        } 
-        else {
-            $('#myModal .color').addClass('hidden');
-        }
-
-        if (attributes[$thumbNumber].needs.length != 0) {
-            $('#myModal .behavior').html('<b>Behaviors:</b> ' + attributes[$thumbNumber].behavior).removeClass('hidden');
-        } 
-        else {
-            $('#myModal .behavior').addClass('hidden');
-        }
-
+        $('#myModal .color').html('<b>Color:</b> ' + attributes[$thumbNumber].color);
+        $('#myModal .behavior').html('<b>Behaviors:</b> ' + attributes[$thumbNumber].behavior);
         if (attributes[$thumbNumber].needs.length != 0) {
             $('#myModal .needs').html('<b>Special Needs:</b> ' + attributes[$thumbNumber].needs).removeClass('hidden');
         } 
         else {
             $('#myModal .needs').addClass('hidden');
         }
-
         $('#myModal .pet-name').html('Want to take ' + attributes[$thumbNumber].name + ' home?');
 
 
